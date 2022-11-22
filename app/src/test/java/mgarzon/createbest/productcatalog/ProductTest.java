@@ -19,6 +19,7 @@ public class ProductTest {
     @Test
     public void checkProductPrice() {
         // I am making this test to fail
+        //Test corrigé
         Product aProduct = new Product("1", "DELL MONITOR", 180);
         assertEquals("Check the price of the product", 180.0, aProduct.getPrice());
     }
